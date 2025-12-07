@@ -16,17 +16,119 @@
 }
 
 /*======================= ADVANTAGES =======================*/
-
-.advantages{
-    background-color: #ebf8ed;;
+.images-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.images-list {
+    list-style: none;
+    /* додатково для сумісності */
+    margin: 0;
+    padding: 0;
 }
 
-ul {
-    list-style: none;
+.list-point {
+    margin: 0;
     padding: 0;
+}
+
+.list-point::marker {
+    content: none;
+    /* точно видаляємо крапку */
+}
+
+.title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
     margin: 0;
 }
 
+.heading {
+    font-family: "Comfortaa", sans-serif;
+    margin: 0;
+}
+
+.title-text {
+    font-family: "Fira Sans", sans-serif;
+    margin: 0;
+}
+
+.advantages-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.advantages {
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+/*.advantages {
+
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 48px;
+        padding-block: 32px;
+        padding-inline: 16px;
+        width: 320px;
+        height: 1470px;
+    }*/
+
+
+
+}
+
+.container-advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+
+    /*.container-advantages {
+    
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            gap: 12px;
+            width: 288px;
+            height: 272px;
+            margin: 16px 32px 16px 48px;
+        }*/
+}
+
+
+
+
+/*
+ul,
+li {
+    list-style: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.images-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.images-list li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .title{
 font-family: "Fira Sans", sans-serif;
 color: #030a06;
@@ -36,6 +138,7 @@ font-weight: 600;
 font-size: 16px;
 gap: 0;
 text-align: left;
+margin: 16px;
 }
 
 .heading{
@@ -48,52 +151,45 @@ font-family: "Fira Sans", sans-serif;
 
 
 /*======================= advantages-mobile ======================= */
-.advantages{
-display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 48px;
-padding-block: 32px;
-padding-inline: 16px;
-width: 320px;
-height: 1470px;
-}
-.container-advantages {
-display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 12px;
-width: 288px;
-height: 272px;
 
-margin: 16px 32px 16px 48px;
 
-}
-.title{
+
+/*.title{
     margin: 0 auto;
-    ;
-@media screen and (min-resolution: 192dpi) {
-
 }
+
+.images-list{
+    width: 288px;
+    height: 1086px;
+    gap: 48px;
+    opacity: 1;
+}
+
+.list-point{
+    width: 288px;
+    height: 330px;
+    opacity: 1;
+}
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+
+
+}*/
 
 
 
 /*======================= advantages-tablet ======================= */
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
 
 }
-
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {}
 
 
 
 /*======================= advantages-desktop =======================*/
-@media screen and (min-width: 1440px) {
+/*@media screen and (min-width: 1440px) {
 
 }
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
 
-}
+}*/
