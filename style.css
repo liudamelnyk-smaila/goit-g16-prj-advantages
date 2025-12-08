@@ -1,241 +1,3 @@
-
-/*======================= ADVANTAGES =======================
-.advantages{
-    gap:48px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding-block: 32px;
-    padding-inline: 16px;
-    width:100%;
-    height: 1470px;
-   background-color: #EBF8ED;---колір має бути заданий на весь Body
-}
-.container-advantages{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 12px;
-    padding: 0 auto;
-    margin-bottom: 48px;
-}
-.title{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-    width: 72px;
-    height: 24px;
-    padding: 0 auto;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    
-     line-height: 20px; 
-    line-height: 1.5;
-    color: #030a06;
-    margin-bottom: 8px;
-}
-.heading{
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
-    font-size: 28px;
-
-    line-height: 1.2;
-    letter-spacing: 0.01em;
-    color: #030a06;
-    margin-bottom: 12px;
-}
-.title-text{
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-
-    line-height: 1.6;
-    color: #030a06;
-    max-width: 288px;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-h2,
-h3,
-p {
-    margin: 0;
-}
-.images-list{
-    list-style: none;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 48px;
-    width: 288px;
-    height: 1086px;
-}
-.list-point,
-.list-point-bag{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
-    width: 288px;
-    height: 330px;
-}
-.advantages-img,
-.advantages-img-bag{
-    border-radius: 32px;
-}
-.list-name{
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-    color: #030a06;
-}
-.list-text{
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-
-    line-height: 1.6;
-    color: #030a06;
-}
-
-======================= advantages-tablet =======================
-@media screen and (min-width: 768px) {
-.advantages {
-    gap: 32px;
-    padding-block: 64px;
-    padding-inline: 32px;
-    width: 768px;
-    height: 1256px;
-}
-.container-advantages {
-    margin-bottom: 48px;
-}
-.container-advantages {
-    gap: 16px;
-    padding-block: 64px;
-    padding-inline: 32px;
-    width: 704px;
-    height: 194px;
-}
-.heading{
-    font-size: 36px;
-}
-.title-text{
-    font-size: 18px;
-}
-
-.images-list {
-display: flex;
-flex-wrap: wrap;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 24px;
-width: 704px;
-height: 902px;
-}
-.list-point{
-    gap: 32px;
-    width: 340px;
-    height: 361px;
-    min-width: 320px;
-    width: calc((100% - 24px) / 2);
-}
-.list-point-bag {
-    gap: 32px;
-    width: 100%;
-    height: 516px;
-    min-width: 320px;
-}
-
-.advantages-img{
-    width: 340px;
-    height:201px;
-}
-.advantages-img-bag{
-    width:704px;
-    height: 416px;
-}
-.advantages-img,
-.advantages-img-bag {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 32px;
-}
-}
-
-====================== advantages-desktop =======================
-@media screen and (min-width: 1440px) {
-.advantages {
-    gap: 80px;
-    padding: 64px;
-    height: 835px;
-}
-.advantages-container {
-    max-width: 1312px;
-    margin: 0 auto;
-}
-.container-advantages {
-    gap: 16px;
-    width: 768px;
-    height: 180px;
-}
-.heading {
-    font-size: 48px;
-}
-.title-text {
-    font-size: 18px;
-}
-.images-list {
-display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 24px;
-width: 1312px;
-height: 447px;
-flex-wrap: nowrap;
- 
-}
-.list-point,
-.list-point-bag {
-display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 32px;
-    width: 421px;
-    height: 447px;
-}
-.list-point,
-.list-point-bag {
-    width: calc((100% - 48px) / 3);
-}
-.advantages-img,
-.advantages-img-bag{
-    width:421px;
-    height:249px;
-}
-.list-name{
-    font-size: 32px;
-}
-}*/
-
 body {
     margin: 0;
     background-color: #ebf8ed;
@@ -313,6 +75,13 @@ img {
     gap: 16px;
 }
 
+.advantages-img-wrap {
+    width: 100%;
+    height: 198px;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
 .advantages-img,
 .advantages-img-bag {
     width: 100%;
@@ -321,6 +90,7 @@ img {
     border-radius: 32px;
     height: 198px;
     display: block;
+    height: 100%;
 }
 
 .list-name {
@@ -337,7 +107,7 @@ img {
     line-height: 26px;
 }
 
-/* ======================= TABLET ======================= */
+/*====================== TABLET =======================*/
 @media screen and (min-width: 768px) {
     .advantages {
         padding: 64px 32px;
@@ -368,16 +138,16 @@ img {
     .list-point-bag {
         width: 100%;
     }
-    .list-point .advantages-img {
+
+    .list-point .advantages-img-wrap {
         height: 201px;
     }
-    
-    .list-point-bag .advantages-img-bag {
+        
+    .list-point-bag .advantages-img-wrap {
         height: 416px;
     }
-    }
 
-/* ======================= DESKTOP ======================= */
+/*======================= DESKTOP =======================*/
 @media screen and (min-width: 1440px) {
     .advantages {
         padding: 64px;
@@ -389,17 +159,19 @@ img {
     }
 
     .images-list {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: flex-start;
         gap: 24px;
         display: flex;
-}
+        flex-direction: row;
+    }
 
     .list-point,
     .list-point-bag {
         width: calc((100% - 48px) / 3);
-}
+    }
 
+}
     .list-name {
         font-size: 32px;
 }
@@ -411,11 +183,10 @@ img {
     .advantages-img,
     .advantages-img-bag {
         width: 100%;
-        height: 249px;
         object-fit: cover;
         border-radius: 32px;    
 }
-    .list-point-bag .advantages-img-bag {
+    .advantages-img-wrap {
         height: 249px;
-}
+    }
 }
