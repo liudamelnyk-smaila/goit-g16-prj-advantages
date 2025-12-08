@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,70 +11,64 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <load src="./partials/header.html"/>
-    <load src="./partials/burger.html"/>
+    <main>
+      <!-- ADVANTAGES -->
+      <section class="advantages">
+        <div class="advantages-container">
+        <div class="container-advantages">
+          <p class="title">Переваги</p>
+          <h2 class="heading">Чому обрати нас?</h2>
+          <p class="title-text">Наші сумки виготовлені з екологічно чистих матеріалів,
+            що забезпечують стійкість і довговічність. Обираючи EcoTote, ви підтримуєте екологічну відповідальність.</p>
+        </div>
+        <!-- ORGANIC -->
+        <ul class="images-list">
+          <li class="list-point">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="./advantages/organic.jpg 1x, ./advantages/organic@x2.jpg 2x" />
+              <source media="(min-width: 768px)" srcset="./advantages/organic.jpg 1x, ./advantages/organic@x2.jpg 2x" />
+              <source media="(max-width: 767px)" srcset="./advantages/organic.jpg 1x, ./advantages/organic@x2.jpg 2x" />
+      
+              <img class="advantages-img" src="./advantages/organic.jpg" width="288" height="198"
+                alt="Bag made from organic materials">
+            </picture>
+            <h3 class="list-name">Стійкість та екологічність</h3>
+            <p class="list-text">Виготовлені з органічної бавовни та переробленого пластику.</p>
+          </li>
+          <!-- BAGWORK -->
+          <li class="list-point">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="./advantages/bagwork.jpg 1x, ./advantages/bagwork@x2.jpg 2x" />
+              <source media="(min-width: 768px)" srcset="./advantages/bagwork.jpg 1x, ./advantages/bagwork@x2.jpg 2x" />
+              <source media="(max-width: 767px)" srcset="./advantages/bagwork.jpg 1x, ./advantages/bagwork@x2.jpg 2x" />
+      
+              <img class="advantages-img" src="./advantages/bagwork.jpg" width="288" height="198"
+                alt="Reinforced stitching of an eco-friendly bag">
+            </picture>
+            <h3 class="list-name">Міцність і довговічність</h3>
+            <p class="list-text">Наші сумки мають посилені шви для тривалого використання.</p>
+      
+          </li>
+          <!-- BAG -->
+          <li class="list-point-bag">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="./advantages/bag.jpg 1x, ./advantages/bag@x2.jpg 2x" />
+              <source media="(min-width: 768px)" srcset="./advantages/bag.jpg 1x, ./advantages/bag@x2.jpg 2x" />
+              <source media="(max-width: 767px)" srcset="./advantages/bag.jpg 1x, ./advantages/bag@x2.jpg 2x" />
+      
+              <img class="advantages-img-bag" src="./advantages/bag.jpg" width="288" height="198"
+                alt="Stylish reusable eco-friendly bag">
+            </picture>
+            <h3 class="list-name">Стильний та сучасний дизайн</h3>
+            <p class="list-text">Мінімалістичні моделі в обмежених серіях для кожного стилю.</p>
+      
+          </li>
+        </ul>
+        </div>
+      </section>
+    </main>
 
     
-      <load src="./partials/advantages.html"/>
-      <load src="./partials/assortment.html"/>
-      <load src="./partials/gallery.html"/>
-      <load src="./partials/feedbacks.html"/>
-      <load src="./partials/support.html"/>
-      
-    </main>
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
-<!-- ADVANTAGES -->
- <section class="advantages">
-        <div class="container-advantages">
-            <p class="title">Переваги</p>
-            <h2 class="heading">Чому обрати нас?</h2>
-            <p class="title-text">Наші сумки виготовлені з екологічно чистих матеріалів, 
-                що забезпечують стійкість і довговічність. Обираючи EcoTote, ви підтримуєте екологічну відповідальність.</p>
-        </div>
- <!-- ORGANIC -->
-            <ul class="images-list">
-                <li class="list-point">
-                  <picture>
-                    <source media="(min-width: 1440px)" srcset="./advantages/organic.jpg 1x, ./advantages/organic@2x.jpg 2x" />
-                    <source media="(min-width: 768px)" srcset="./advantages/organic.jpg 1x, ./advantages/organic@2x.jpg 2x" />
-                    <source media="(max-width: 767px)" srcset="./advantages/organic.jpg 1x, ./advantages/organic@2x.jpg 2x" />
-                    
-                    <img class="advantages-img" src="./advantages/organic.jpg" width="288" height="198" alt="Bag made from organic materials">
-                  </picture>
-                        <h3 class="list-name">Стійкість та екологічність</h3>
-                        <p class="list-text">Виготовлені з органічної бавовни та переробленого пластику.</p>
-                </li>           
- <!-- BAGWORK -->
-                <li class="list-point">
-                  <picture>
-                  <source media="(min-width: 1440px)" srcset="./advantages/bagwork.jpg 1x, ./advantages/bagwork@2x.jpg 2x" />
-                    <source media="(min-width: 768px)" srcset="./advantages/bagwork.jpg 1x, ./advantages/bagwork@2x.jpg 2x" />
-                    <source media="(max-width: 767px)" srcset="./advantages/bagwork.jpg 1x, ./advantages/bagwork@2x.jpg 2x" />
-                  
-                    <img class="advantages-img" src="./advantages/bagwork.jpg" width="288" height="198" alt="Reinforced stitching of an eco-friendly bag">
-                  </picture>
-                        <h3 class="list-name">Міцність і довговічність</h3>
-                        <p class="list-text">Наші сумки мають посилені шви для тривалого використання.</p>
-                         
-                </li>
- <!-- BAG -->
-                <li class="list-point-bag">
-                  <picture>
-                    <source media="(min-width: 1440px)" srcset="./advantages/bag.jpg 1x, ./advantages/bag@2x.jpg 2x" />
-                    <source media="(min-width: 768px)" srcset="./advantages/bag.jpg 1x, ./advantages/bag@2x.jpg 2x" />
-                    <source media="(max-width: 767px)" srcset="./advantages/bag.jpg 1x, ./advantages/bag@2x.jpg 2x" />
-                  
-                    <img class="advantages-img-bag" src="./advantages/bag.jpg" width="288" height="198"
-                      alt="Stylish reusable eco-friendly bag">
-                  </picture>
-                        <h3 class="list-name">Стильний та сучасний дизайн</h3>
-                        <p class="list-text">Мінімалістичні моделі в обмежених серіях для кожного стилю.</p>  
-                    
-                </li>
-            </ul>          
-    </section>
 
 
   </body>
